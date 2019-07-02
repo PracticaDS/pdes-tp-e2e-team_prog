@@ -11,4 +11,3 @@ script:
   - yarn wait
   - yarn test:e2e
   - docker-compose down
-  - yarn clean

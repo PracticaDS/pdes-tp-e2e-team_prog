@@ -11,7 +11,7 @@
     "request": "^2.88.0"
   },
   "scripts": {
-    "wait": "babel-node wait.js",
+    "wait": "CYPRESS_baseUrl=http://localhost:81 babel-node wait.js",
     "test:e2e": "CYPRESS_baseUrl=http://localhost:81 cypress run --env API_URL=http://localhost:3001",
     "start": "react-scripts start",
     "build": "react-scripts build",
