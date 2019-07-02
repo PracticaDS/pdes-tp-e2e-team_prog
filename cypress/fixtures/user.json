@@ -1,0 +1,23 @@
+{
+  "existing": {
+    "username": "test",
+    "game_name": "test-game",
+    "game_rows": 10,
+    "game_columns": 10,
+    "initial_requests": [
+      { "url": "/api/test/db-clean", "method": "POST", "timeout": 2000 },
+      { "url": "/api/test/db-seed", "method": "POST", "timeout": 2000 }
+    ],
+    "games": 1,
+    "currency": 10000
+  },
+  "new": {
+    "username": "test1",
+    "game_name": "test1",
+    "game_rows": 10,
+    "game_columns": 10,
+    "initial_requests": [{ "url": "/api/test/db-clean", "method": "POST" }],
+    "games": 0,
+    "currency": 10000
+  }
+}
